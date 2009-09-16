@@ -1,0 +1,16 @@
+
+
+username: <rapidboard user name>
+userpassword: <password>
+adminuser: <rapidboard admin user name>
+adminpassword: <admin password>
+
+emailuser: <email user name>
+emailpassword: <email password>
+emailhost: <email smtp host>
+emailport: 25
+emailfrom: <email from address>
+emailalias: <email from alias>
+emailrecipients: <comma seperated list of recipient email address -- e.g admins and mods>
+
+api_key: <Stop Forum Spam API key>
