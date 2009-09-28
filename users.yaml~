@@ -1,0 +1,1095 @@
+--- 
+- 
+- !ruby/object:User 
+  email: jessica.dmh@gmail.com
+  ip: 74.216.78.4
+  name: Aquarius89
+  spammer: false
+  status: Admin
+  uid: "1"
+- !ruby/object:User 
+  email: skrabbleproductions@gmail.com
+  ip: 75.153.173.72
+  name: 3DogMayhem
+  spammer: false
+  status: Members
+  uid: "2"
+- !ruby/object:User 
+  email: rockxthisxcountry@msn.com
+  ip: 71.164.231.22
+  name: CassieNova
+  spammer: false
+  status: Members
+  uid: "3"
+- !ruby/object:User 
+  email: mygarden1@roadrunner.com
+  ip: 69.132.156.52
+  name: BackerBunch
+  spammer: false
+  status: Members
+  uid: "4"
+- !ruby/object:User 
+  email: bcbeckett@gmail.com
+  ip: 69.216.131.59
+  name: bcbeckett
+  spammer: false
+  status: Members
+  uid: "5"
+- !ruby/object:User 
+  email: akdvorak@gmail.com
+  ip: 174.130.36.121
+  name: lexio2
+  spammer: false
+  status: Members
+  uid: "6"
+- !ruby/object:User 
+  email: knewman7888@aol.com
+  ip: 205.188.117.138
+  name: KarenN
+  spammer: false
+  status: Members
+  uid: "7"
+- !ruby/object:User 
+  email: barksong@gmail.com
+  ip: 98.195.180.184
+  name: Barksong
+  spammer: false
+  status: Members
+  uid: "8"
+- !ruby/object:User 
+  email: k9andgpgirl@hotmail.com
+  ip: 68.189.162.35
+  name: Stardogs
+  spammer: false
+  status: Members
+  uid: "9"
+- 
+- !ruby/object:User 
+  email: shouse@mebtel.net
+  ip: 99.194.5.225
+  name: Irena
+  spammer: false
+  status: Members
+  uid: "11"
+- !ruby/object:User 
+  email: innersong@aol.com
+  ip: 72.204.61.62
+  name: Wendy M
+  spammer: false
+  status: Members
+  uid: "12"
+- !ruby/object:User 
+  email: pet222222@yahoo.com
+  ip: 68.157.63.15
+  name: Pris
+  spammer: false
+  status: Members
+  uid: "13"
+- !ruby/object:User 
+  email: john.lloydjones@gmail.com
+  ip: 24.249.168.254
+  name: JohnLloydJones
+  spammer: false
+  status: Admin
+  uid: "14"
+- !ruby/object:User 
+  email: in2adventure@msn.com
+  ip: 71.176.111.253
+  name: in2adventure
+  spammer: false
+  status: Members
+  uid: "15"
+- !ruby/object:User 
+  email: shortcowgirl@post.cybercity.dk
+  ip: 87.49.79.91
+  name: bexie
+  spammer: false
+  status: Members
+  uid: "16"
+- !ruby/object:User 
+  email: brittanylakee@yahoo.com
+  ip: 99.18.25.238
+  name: bongo and co.
+  spammer: false
+  status: Members
+  uid: "17"
+- !ruby/object:User 
+  email: holly12collie@aol.com
+  ip: 195.93.21.41
+  name: Holly's mum
+  spammer: false
+  status: Members
+  uid: "18"
+- !ruby/object:User 
+  email: k9madness@sbcglobal.net
+  ip: 65.66.216.242
+  name: Goose
+  spammer: false
+  status: Members
+  uid: "19"
+- !ruby/object:User 
+  email: clyoung@cvalley.net
+  ip: 68.156.159.10
+  name: Ceredwyn
+  spammer: false
+  status: Members
+  uid: "20"
+- !ruby/object:User 
+  email: szqboo77@hotmail.com
+  ip: 208.44.122.22
+  name: sue
+  spammer: false
+  status: Members
+  uid: "21"
+- !ruby/object:User 
+  email: bcs4kat@aol.com
+  ip: 206.53.144.55
+  name: blueborders
+  spammer: false
+  status: Members
+  uid: "22"
+- !ruby/object:User 
+  email: cadenaam@hotmail.com
+  ip: 76.120.19.73
+  name: TeamRK
+  spammer: false
+  status: Members
+  uid: "23"
+- !ruby/object:User 
+  email: dmcfarland@stebbinsfive.com
+  ip: 98.134.169.234
+  name: damonmc
+  spammer: false
+  status: Members
+  uid: "24"
+- !ruby/object:User 
+  email: lkhbordercollies@gmail.com
+  ip: 32.171.42.224
+  name: Bordercolliesrock
+  spammer: false
+  status: Members
+  uid: "25"
+- !ruby/object:User 
+  email: i_lvanimals@yahoo.com
+  ip: 70.105.115.186
+  name: Shellie
+  spammer: false
+  status: Members
+  uid: "26"
+- !ruby/object:User 
+  email: manda_ann1@hotmail.com
+  ip: 75.155.128.147
+  name: Manda
+  spammer: false
+  status: Members
+  uid: "27"
+- !ruby/object:User 
+  email: slwarolin@comcast.net
+  ip: 76.20.169.28
+  name: sandyleew
+  spammer: false
+  status: Members
+  uid: "28"
+- !ruby/object:User 
+  email: angela_l_jones@yahoo.com
+  ip: 74.137.17.63
+  name: ajones
+  spammer: false
+  status: Members
+  uid: "29"
+- !ruby/object:User 
+  email: bruce.a.hood@gmail.com
+  ip: 98.168.146.145
+  name: Wayfaring
+  spammer: false
+  status: Members
+  uid: "30"
+- !ruby/object:User 
+  email: sljue1@gmail.com
+  ip: 75.6.251.97
+  name: sluj
+  spammer: false
+  status: Members
+  uid: "31"
+- !ruby/object:User 
+  email: sutherlandcolecassar@gmail.com
+  ip: 86.151.129.61
+  name: Lay Me Down
+  spammer: false
+  status: Members
+  uid: "32"
+- !ruby/object:User 
+  email: patti.susko@gmail.com
+  ip: 70.152.223.35
+  name: BCMomma
+  spammer: false
+  status: Members
+  uid: "33"
+- !ruby/object:User 
+  email: johnrenna@earthlink.net
+  ip: 65.25.156.76
+  name: Nellies Dad
+  spammer: false
+  status: Members
+  uid: "34"
+- !ruby/object:User 
+  email: dinahkay@gmail.com
+  ip: 74.232.205.178
+  name: dinah_kay
+  spammer: false
+  status: Members
+  uid: "35"
+- !ruby/object:User 
+  email: tr4cy2@yahoo.com
+  ip: 71.51.16.75
+  name: UK Lass
+  spammer: false
+  status: Members
+  uid: "36"
+- !ruby/object:User 
+  email: kasue58@verizon.net
+  ip: 72.92.237.56
+  name: kasue58
+  spammer: false
+  status: Members
+  uid: "37"
+- !ruby/object:User 
+  email: sheepdoggal1@gmail.com
+  ip: 4.88.34.45
+  name: 1sheepdoggal
+  spammer: false
+  status: Members
+  uid: "38"
+- !ruby/object:User 
+  email: dchristismi@gmail.com
+  ip: 24.164.58.149
+  name: Sasha's Mom
+  spammer: false
+  status: Members
+  uid: "39"
+- 
+- !ruby/object:User 
+  email: danielle.shank@selu.edu
+  ip: 96.33.143.169
+  name: Chesney's Girl
+  spammer: false
+  status: Members
+  uid: "41"
+- !ruby/object:User 
+  email: jlnorwood@yahoo.com
+  ip: 66.57.104.144
+  name: Books
+  spammer: false
+  status: Members
+  uid: "42"
+- !ruby/object:User 
+  email: goldento@sbcglobal.net
+  ip: 99.147.200.195
+  name: magmile
+  spammer: false
+  status: Members
+  uid: "43"
+- !ruby/object:User 
+  email: jtay_69@hotmail.com
+  ip: 68.147.118.144
+  name: pookie_karmalina
+  spammer: false
+  status: Members
+  uid: "44"
+- !ruby/object:User 
+  email: victoria_wheeler@comcast.net
+  ip: 75.64.3.234
+  name: Victoria
+  spammer: false
+  status: Members
+  uid: "45"
+- !ruby/object:User 
+  email: portinthestorm@mts.net
+  ip: 142.161.63.104
+  name: hullshaven
+  spammer: false
+  status: Members
+  uid: "46"
+- !ruby/object:User 
+  email: pgronvaldt@comcast.net
+  ip: 98.207.134.246
+  name: 2halves
+  spammer: false
+  status: Members
+  uid: "47"
+- !ruby/object:User 
+  email: kdegiule@ec.rr.com
+  ip: 75.180.229.118
+  name: Georgia's Mama
+  spammer: false
+  status: Members
+  uid: "48"
+- !ruby/object:User 
+  email: jenrallen@aol.com
+  ip: 207.200.116.5
+  name: Caesars Palace
+  spammer: false
+  status: Members
+  uid: "49"
+- !ruby/object:User 
+  email: flinchagainstthefire@hotmail.com
+  ip: 142.55.26.12
+  name: flinch
+  spammer: false
+  status: Members
+  uid: "50"
+- !ruby/object:User 
+  email: j.allen00@yahoo.com
+  ip: 82.152.255.252
+  name: Tectona
+  spammer: false
+  status: Members
+  uid: "51"
+- !ruby/object:User 
+  email: mcurtis5838@yahoo.com
+  ip: 75.206.34.12
+  name: discdogfreak
+  spammer: false
+  status: Members
+  uid: "52"
+- !ruby/object:User 
+  email: laurenstack@hotmail.com
+  ip: 71.203.128.247
+  name: Zoey&amp;Fenn
+  spammer: false
+  status: Members
+  uid: "53"
+- !ruby/object:User 
+  email: madams6@windstream.net
+  ip: 167.199.227.66
+  name: Dixie'sDad
+  spammer: false
+  status: Members
+  uid: "54"
+- !ruby/object:User 
+  email: amy@banyanappraisals.com
+  ip: 74.245.229.239
+  name: SoFlSunshine
+  spammer: false
+  status: Members
+  uid: "55"
+- !ruby/object:User 
+  email: foschar@comcast.net
+  ip: 65.202.249.250
+  name: 2devils
+  spammer: false
+  status: Members
+  uid: "56"
+- !ruby/object:User 
+  email: karamsay@yahoo.com
+  ip: 12.150.11.25
+  name: KARamsay
+  spammer: false
+  status: Members
+  uid: "57"
+- !ruby/object:User 
+  email: bordercolliester@gmail.com
+  ip: 70.90.6.46
+  name: Speed Racer
+  spammer: false
+  status: Members
+  uid: "58"
+- !ruby/object:User 
+  email: wyoasr@gmail.com
+  ip: 209.193.74.18
+  name: wyomingJoan
+  spammer: false
+  status: Members
+  uid: "59"
+- !ruby/object:User 
+  email: hghridenchevy82@aol.com
+  ip: 69.253.12.140
+  name: AllJackedUpFlyball07
+  spammer: false
+  status: Members
+  uid: "60"
+- !ruby/object:User 
+  email: mrsnappyone@yahoo.com
+  ip: 96.49.51.227
+  name: RDM
+  spammer: false
+  status: Members
+  uid: "61"
+- 
+- !ruby/object:User 
+  email: tazimodo@comcast.net
+  ip: 67.190.69.43
+  name: laurae
+  spammer: false
+  status: Members
+  uid: "63"
+- !ruby/object:User 
+  email: grmeisel@charter.net
+  ip: 24.231.183.117
+  name: Gary M
+  spammer: false
+  status: Members
+  uid: "64"
+- !ruby/object:User 
+  email: negeissler@gmail.com
+  ip: 69.6.102.90
+  name: Ladybug
+  spammer: false
+  status: Members
+  uid: "65"
+- !ruby/object:User 
+  email: mullerka@delval.edu
+  ip: 146.145.215.131
+  name: Kelly
+  spammer: false
+  status: Members
+  uid: "66"
+- !ruby/object:User 
+  email: muttsmom04@aol.com
+  ip: 72.146.25.131
+  name: MuttsMom
+  spammer: false
+  status: Members
+  uid: "67"
+- 
+- 
+- !ruby/object:User 
+  email: mosstheboss2000@rogers.com
+  ip: 99.252.222.222
+  name: mosstheboss
+  spammer: false
+  status: Members
+  uid: "70"
+- !ruby/object:User 
+  email: bordercollies_4ever@yahoo.com
+  ip: 72.10.80.47
+  name: bc4ever
+  spammer: false
+  status: Members
+  uid: "71"
+- 
+- !ruby/object:User 
+  email: k2r@core.com
+  ip: 156.63.195.2
+  name: k2r
+  spammer: false
+  status: Members
+  uid: "73"
+- 
+- 
+- !ruby/object:User 
+  email: shirleythompson95@hotmail.com
+  ip: 72.54.194.177
+  name: BC FRIEND
+  spammer: false
+  status: Members
+  uid: "76"
+- 
+- !ruby/object:User 
+  email: christy@muttnut.com
+  ip: 216.109.166.4
+  name: muttnut
+  spammer: false
+  status: Members
+  uid: "78"
+- !ruby/object:User 
+  email: bustopherjones@aol.com
+  ip: 12.4.235.134
+  name: BustopherJones
+  spammer: false
+  status: Members
+  uid: "79"
+- !ruby/object:User 
+  email: jdmanley@hotmail.com
+  ip: 76.177.60.237
+  name: thirdday82
+  spammer: false
+  status: Members
+  uid: "80"
+- !ruby/object:User 
+  email: burnham@chartermi.net
+  ip: 24.247.189.120
+  name: tburnham
+  spammer: false
+  status: Members
+  uid: "81"
+- 
+- !ruby/object:User 
+  email: sarahslyter@gmail.com
+  ip: 206.53.88.137
+  name: Borderco1
+  spammer: false
+  status: Members
+  uid: "83"
+- !ruby/object:User 
+  email: smart_dog@comcast.net
+  ip: 98.200.59.230
+  name: Old_Dog
+  spammer: false
+  status: Members
+  uid: "84"
+- !ruby/object:User 
+  email: virginia@garlen.com
+  ip: 71.229.41.229
+  name: 4Tom
+  spammer: false
+  status: Members
+  uid: "85"
+- 
+- 
+- 
+- !ruby/object:User 
+  email: jennivimey@yahoo.com
+  ip: 70.109.117.200
+  name: Thoughts
+  spammer: false
+  status: Members
+  uid: "89"
+- !ruby/object:User 
+  email: sydnphil@yahoo.com
+  ip: 70.215.82.214
+  name: Syd's Dad
+  spammer: false
+  status: Members
+  uid: "90"
+- !ruby/object:User 
+  email: theresapilot@hotmail.com
+  ip: 99.6.230.104
+  name: Theresa
+  spammer: false
+  status: Members
+  uid: "91"
+- !ruby/object:User 
+  email: kimmyfl101@gmail.com
+  ip: 66.177.212.236
+  name: meandmybuddy
+  spammer: false
+  status: Members
+  uid: "92"
+- 
+- !ruby/object:User 
+  email: kgunther@charter.net
+  ip: 75.139.61.154
+  name: kgunther
+  spammer: false
+  status: Members
+  uid: "94"
+- !ruby/object:User 
+  email: rrruff@gmail.com
+  ip: 71.235.153.249
+  name: hippiedoglover
+  spammer: false
+  status: Members
+  uid: "95"
+- 
+- 
+- !ruby/object:User 
+  email: spottydog_68@hotmail.com
+  ip: 129.100.110.163
+  name: Spottydog
+  spammer: false
+  status: Members
+  uid: "98"
+- 
+- !ruby/object:User 
+  email: ccsleik@shaw.ca
+  ip: 24.67.165.35
+  name: tualizzy
+  spammer: false
+  status: Members
+  uid: "100"
+- !ruby/object:User 
+  email: johnyokley@yahoo.com
+  ip: 173.20.57.224
+  name: Appaholic
+  spammer: false
+  status: Members
+  uid: "101"
+- 
+- !ruby/object:User 
+  email: nikkicollins401@btinternet.com
+  ip: 81.152.71.107
+  name: Hotshot-Boys
+  spammer: false
+  status: Members
+  uid: "103"
+- 
+- 
+- 
+- 
+- !ruby/object:User 
+  email: adugan2@twcny.rr.com
+  ip: 24.59.247.213
+  name: thunderpaws
+  spammer: false
+  status: Members
+  uid: "108"
+- 
+- !ruby/object:User 
+  email: madogz@shaw.ca
+  ip: 70.75.206.217
+  name: Tallyhooligan
+  spammer: false
+  status: Members
+  uid: "110"
+- !ruby/object:User 
+  email: boogiedog61@hotmail.com
+  ip: 206.53.144.73
+  name: boogiebc
+  spammer: false
+  status: Members
+  uid: "111"
+- 
+- !ruby/object:User 
+  email: kokopellibc@yahoo.com
+  ip: 67.41.248.106
+  name: Border Collie
+  spammer: false
+  status: Members
+  uid: "113"
+- !ruby/object:User 
+  email: desertranger@gmail.com
+  ip: 24.152.156.23
+  name: desertranger
+  spammer: false
+  status: Members
+  uid: "114"
+- 
+- !ruby/object:User 
+  email: amhigginson@gmail.com
+  ip: 98.214.97.58
+  name: snow_blossoms
+  spammer: false
+  status: Members
+  uid: "116"
+- !ruby/object:User 
+  email: smallstream@aol.com
+  ip: 24.110.67.129
+  name: smallstream
+  spammer: false
+  status: Members
+  uid: "117"
+- 
+- 
+- 
+- 
+- 
+- !ruby/object:User 
+  email: j4slater@hotmail.com
+  ip: 97.84.167.231
+  name: j4slater
+  spammer: false
+  status: Members
+  uid: "123"
+- 
+- 
+- 
+- 
+- 
+- !ruby/object:User 
+  email: mbars@mtintouch.net
+  ip: 70.41.201.228
+  name: MbarS
+  spammer: false
+  status: Members
+  uid: "129"
+- !ruby/object:User 
+  email: hollyandrew.earthrescue@gmail.com
+  ip: 69.221.226.240
+  name: Andrew
+  spammer: false
+  status: Members
+  uid: "130"
+- 
+- !ruby/object:User 
+  email: katy.chadwick@yahoo.com
+  ip: 24.159.17.152
+  name: muttlycrew
+  spammer: false
+  status: Members
+  uid: "132"
+- !ruby/object:User 
+  email: camorrow@gmail.com
+  ip: 74.32.146.71
+  name: CMorrow
+  spammer: false
+  status: Members
+  uid: "133"
+- 
+- !ruby/object:User 
+  email: teshky@live.com
+  ip: 70.49.25.31
+  name: sweet4
+  spammer: false
+  status: Members
+  uid: "135"
+- 
+- !ruby/object:User 
+  email: kate.osterhaus@gmail.com
+  ip: 74.216.102.251
+  name: kokirby83
+  spammer: false
+  status: Members
+  uid: "137"
+- 
+- 
+- !ruby/object:User 
+  email: sharon.tom@insightbb.com
+  ip: 74.129.230.77
+  name: jerseygirl
+  spammer: false
+  status: Members
+  uid: "140"
+- 
+- 
+- !ruby/object:User 
+  email: hartworks@earthlink.net
+  ip: 72.147.52.144
+  name: Stinky
+  spammer: false
+  status: Members
+  uid: "143"
+- 
+- 
+- 
+- 
+- !ruby/object:User 
+  email: cdx@hotmail.com
+  ip: 204.52.250.5
+  name: urge2herd
+  spammer: false
+  status: Members
+  uid: "148"
+- !ruby/object:User 
+  email: vickiinmt@gmail.com
+  ip: 69.146.222.203
+  name: cvmthacker
+  spammer: false
+  status: Members
+  uid: "149"
+- !ruby/object:User 
+  email: bcgirls12@yahoo.ca
+  ip: 64.235.100.50
+  name: Bcgirls12
+  spammer: false
+  status: Members
+  uid: "150"
+- !ruby/object:User 
+  email: nokita_99@hotmail.com
+  ip: 24.76.172.235
+  name: Flick2009
+  spammer: false
+  status: Members
+  uid: "151"
+- !ruby/object:User 
+  email: 2speckledblue@gmail.com
+  ip: 71.87.47.216
+  name: 2speckledblue
+  spammer: false
+  status: Members
+  uid: "152"
+- 
+- 
+- !ruby/object:User 
+  email: bc_mom@sbcglobal.net
+  ip: 4.226.45.165
+  name: Sheepskin_border_collies
+  spammer: false
+  status: Members
+  uid: "155"
+- !ruby/object:User 
+  email: cmh2jkw@gmail.com
+  ip: 68.210.187.87
+  name: Jasminny
+  spammer: false
+  status: Members
+  uid: "156"
+- !ruby/object:User 
+  email: e2jwtaylor@aol.com
+  ip: 208.63.178.87
+  name: etaylor
+  spammer: false
+  status: Members
+  uid: "157"
+- !ruby/object:User 
+  email: tidedawg95@yahoo.com
+  ip: 76.17.36.4
+  name: Tidedawg95
+  spammer: false
+  status: Members
+  uid: "158"
+- 
+- 
+- !ruby/object:User 
+  email: saramcvt@gmail.com
+  ip: 75.69.39.163
+  name: SarainVT
+  spammer: false
+  status: Members
+  uid: "161"
+- !ruby/object:User 
+  email: jloberg@brookcntr.k12.mn.us
+  ip: 206.131.28.251
+  name: jacksmom
+  spammer: false
+  status: Members
+  uid: "162"
+- !ruby/object:User 
+  email: wick-un@shaw.ca
+  ip: 96.53.223.104
+  name: acollins
+  spammer: false
+  status: Members
+  uid: "163"
+- !ruby/object:User 
+  email: frosty45@shaw.ca
+  ip: 198.103.172.9
+  name: frosty45
+  spammer: false
+  status: Members
+  uid: "164"
+- !ruby/object:User 
+  email: luttrelljill@yahoo.com
+  ip: 98.20.36.163
+  name: PiperGrace
+  spammer: false
+  status: Members
+  uid: "165"
+- !ruby/object:User 
+  email: curlymay198@yahoo.com
+  ip: 208.71.218.105
+  name: prairie
+  spammer: false
+  status: Members
+  uid: "166"
+- !ruby/object:User 
+  email: augustina1@windstream.net
+  ip: 98.23.207.217
+  name: janeinthemtns
+  spammer: false
+  status: Members
+  uid: "167"
+- !ruby/object:User 
+  email: friendsofpep@aol.com
+  ip: 98.111.4.137
+  name: friends of pep
+  spammer: false
+  status: Members
+  uid: "168"
+- 
+- !ruby/object:User 
+  email: doggieman8@yahoo.ca
+  ip: 142.161.87.54
+  name: doggieman8
+  spammer: false
+  status: Members
+  uid: "170"
+- !ruby/object:User 
+  email: dakotah_uk@yahoo.com
+  ip: 74.75.66.215
+  name: dakotah
+  spammer: false
+  status: Members
+  uid: "171"
+- !ruby/object:User 
+  email: jim@eye2.com
+  ip: 24.56.185.205
+  name: Sadie4Ever
+  spammer: false
+  status: Members
+  uid: "172"
+- !ruby/object:User 
+  email: discdog@teammuseik.com
+  ip: 70.145.68.33
+  name: DiscDog101
+  spammer: false
+  status: Members
+  uid: "173"
+- !ruby/object:User 
+  email: karinscritters@yahoo.com
+  ip: 173.88.195.42
+  name: runningdogs
+  spammer: false
+  status: Members
+  uid: "174"
+- 
+- !ruby/object:User 
+  email: gcsteven@mts.net
+  ip: 142.161.106.199
+  name: Fostermama
+  spammer: false
+  status: Members
+  uid: "176"
+- !ruby/object:User 
+  email: cclag123@yahoo.com
+  ip: 98.211.57.25
+  name: cclag123
+  spammer: false
+  status: Members
+  uid: "177"
+- !ruby/object:User 
+  email: martysq@yahoo.com
+  ip: 38.103.85.75
+  name: MartySQ
+  spammer: false
+  status: Members
+  uid: "178"
+- !ruby/object:User 
+  email: amhuber@ptd.net
+  ip: 24.102.168.29
+  name: MaryNH
+  spammer: false
+  status: Members
+  uid: "179"
+- !ruby/object:User 
+  email: vegasgirl11@gmail.com
+  ip: 74.240.230.236
+  name: vegasgirl11
+  spammer: false
+  status: Members
+  uid: "180"
+- !ruby/object:User 
+  email: mjbrown@laneconstruct.com
+  ip: 12.228.99.58
+  name: itsadoggoneworld
+  spammer: false
+  status: Members
+  uid: "181"
+- !ruby/object:User 
+  email: bcrescue@teammuseik.com
+  ip: 70.145.68.33
+  name: TXMadness
+  spammer: false
+  status: Members
+  uid: "182"
+- !ruby/object:User 
+  email: gotbordercollies@gmail.com
+  ip: 158.111.5.34
+  name: gotbordercollies
+  spammer: false
+  status: Members
+  uid: "183"
+- !ruby/object:User 
+  email: bcrescue@teammuseik.com
+  ip: 70.145.68.33
+  name: TexasMadness
+  spammer: false
+  status: Members
+  uid: "184"
+- !ruby/object:User 
+  email: jess@rjsonline.net
+  ip: 208.104.93.177
+  name: carolinaBC
+  spammer: false
+  status: Members
+  uid: "185"
+- !ruby/object:User 
+  email: lassie9@bright.net
+  ip: 69.88.214.113
+  name: BBCR
+  spammer: false
+  status: Members
+  uid: "186"
+- !ruby/object:User 
+  email: ncnascarlady@gmail.com
+  ip: 74.170.5.47
+  name: ncnascarlady
+  spammer: false
+  status: Members
+  uid: "187"
+- !ruby/object:User 
+  email: pdrom@verizon.net
+  ip: 173.74.167.215
+  name: agilitygirl
+  spammer: false
+  status: Validating
+  uid: "188"
+- 
+- !ruby/object:User 
+  email: adopt@saveabordercollie.com
+  ip: 70.145.68.33
+  name: BCRescue43
+  spammer: false
+  status: Validating
+  uid: "190"
+- !ruby/object:User 
+  email: snrsh@aol.com
+  ip: 199.195.60.25
+  name: squire's mom
+  spammer: false
+  status: Members
+  uid: "191"
+- !ruby/object:User 
+  email: ladymarinenc@yahoo.com
+  ip: 199.191.74.20
+  name: ladymarinenc
+  spammer: false
+  status: Members
+  uid: "192"
+- !ruby/object:User 
+  email: jmatthews41@cfl.rr.com
+  ip: 97.104.98.131
+  name: marcy
+  spammer: false
+  status: Members
+  uid: "193"
+- !ruby/object:User 
+  email: keggertson@wawanesa.com
+  ip: 66.46.138.11
+  name: kairos
+  spammer: false
+  status: Members
+  uid: "194"
+- !ruby/object:User 
+  email: sleddog@teammuseik.com
+  ip: 70.145.68.33
+  name: SupaFreakyBC
+  spammer: false
+  status: Members
+  uid: "195"
+- 
+- !ruby/object:User 
+  email: ridgway@illinois.edu
+  ip: 130.126.18.90
+  name: ridgway
+  spammer: false
+  status: Members
+  uid: "197"
+- 
+- !ruby/object:User 
+  email: lmchaivre@yahoo.com
+  ip: 24.176.4.61
+  name: KelliePup
+  spammer: false
+  status: Members
+  uid: "199"
+- 
+- 
+- !ruby/object:User 
+  email: angferg@imagineopals.com
+  ip: 199.66.1.5
+  name: ayorama
+  spammer: false
+  status: Members
+  uid: "202"
+- !ruby/object:User 
+  email: krizkatz@yahoo.com
+  ip: 68.7.148.129
+  name: TrulyBlue
+  spammer: false
+  status: Members
+  uid: "203"
+-
+- !ruby/object:User 
+  email: go4otch@aol.com
+  ip: 64.12.116.75
+  name: ewenityfarm
+  status: Members
+  uid: "205"
+- 
+- !ruby/object:User 
+  email: bskeeter@verizon.net
+  ip: 71.100.33.133
+  name: bskeeter
+  status: Members
+  uid: "207"

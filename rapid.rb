@@ -10,6 +10,7 @@ STOP_FORUM_SPAM = 'www.stopforumspam.com'
 STATIC_PATH = File.dirname(__FILE__)
 LAST_USER_FILE = File.join(STATIC_PATH, 'last_user.dat')
 YAML_FILE = File.join( STATIC_PATH,'rapid.yaml' )
+USERS_FILE = File.join( STATIC_PATH,'users.yaml' )
 LOG_FILE = File.join( STATIC_PATH,'rapid.log' )
 
 
@@ -45,6 +46,8 @@ END_OF_TEXT
    def initialize
       begin
          @properties = YAML::load( File.open( YAML_FILE ) )
+         @known_users = YAML::load( File.open( USERS_FILE ) )
+
       rescue
          puts "Yaml not found!"
          exit
@@ -53,7 +56,7 @@ END_OF_TEXT
       @emailprops = {}
       @properties.each { |key, value| @emailprops[key] = value if key =~ /^email/ }
       @emailprops['emailport'] ||= '25'
-      @emailprops['emailrecipients'] = @emailprops['emailrecipients'].split(',') || "#{@emailprops['emailuser']}@#{emailprops['emailhost']}"
+      @emailprops['emailrecipients'] = @emailprops['emailrecipients'].split(',') || "#{@emailprops['emailuser']}@#{@emailprops['emailhost']}"
       
       @log = Logger.new( LOG_FILE )
       @log.level = Logger::INFO
@@ -116,6 +119,9 @@ END_OF_TEXT
                               headers)
          @adsess = /adsess=([0-9a-f]*)'/.match(response.body)[1]
       end
+   rescue Exception => e
+       @log.error "admin_login failed.\n#{e}"
+       exit
    end
 
    # Using a normal login, get the 10 most recent members, sorted by descending joind date. In reverse order,
@@ -125,6 +131,7 @@ END_OF_TEXT
       index
       login if @member_id.nil?
       exit if @member_id.nil? || @member_id == '0'
+      @known_users_changed = false
       
       cookies = "pass_hash=#{@pass_hash}; member_id=#{@member_id}; session_id=#{@session_id}"
       headers = {'Cookie'=>"#{cookies}", 'Content-Type'=>'application/x-www-form-urlencoded'}
@@ -135,13 +142,26 @@ END_OF_TEXT
          
          get_member_details response.body
 
-         uid = get_last_user
+#         uid = get_last_user
+         uid = @known_users[-1].uid
+         
+         @users.each do |user|
+            puts "looking at user #{user.name}(#{user.uid}) compared to last known user #{@known_users[-1].name}(#{uid})"
+            break if (uid.to_i < user.uid.to_i)
+            break if (uid.to_i == user.uid.to_i) && (user.name == @know_users[uid.to_i].name) # same id && same name
+            @log.info "User #{@known_users[uid.to_i].name} has been deleted, removing from user list"
+            @known_users.delete_at( -1 )
+            uid = @known_users[-1].uid
+            @known_users_changed = true
+         end
+         
          @users.reverse_each do |user|
             begin
                puts "Looking at #{user.name}"
                if user.uid.to_i > uid.to_i
-                  puts "new: find member..."
+                  @log.info "new: find member #{user.name}(#{user.uid})..."
                   user = find_member user
+                  @known_users[user.uid.to_i] = user
                   @log.info "#{user.name}(#{user.uid}), email: #{user.email}, ip: #{user.ip}"
                   if user.spammer?
                      @log.info "!  #{user.name} is a known spammer!"
@@ -160,13 +180,15 @@ END_OF_BODY
                   end
                   uid = user.uid
                   set_last_user uid
+                  @known_users_changed = true
                end
             rescue Exception => e
                puts "Oops:\n #{e}"
-               @log.error "Check for #{user.name} failed !\n#{$!}"
+               @log.error "Check for #{user.name} failed !\n#{$!}\n#{e.backtrace.join("\n")}"
             end
          end
       end
+      File.open( USERS_FILE, 'w' ) {|f| YAML.dump(@known_users, f) } if @known_users_changed
    end
 
    # Uses admin privileges to get email address and IP address for the user
@@ -253,6 +275,7 @@ END_OF_BODY
    end
    
    def set_last_user uid
+      @log.info "set_last_user: #{uid}"
       File.open(LAST_USER_FILE, 'w') {|f| f.write(uid)}
    end
    
@@ -294,7 +317,6 @@ if __FILE__ == $0
       app = RapidBoard.new
       app.get_new_members
    rescue Exception => e
-      puts "Failed: \n#{$!}"
-      @log.error "Failed: \n#{$!}"
+      puts "Failed: \n#{$!}\n#{e.backtrace.join("\n")}"
    end
 end
