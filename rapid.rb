@@ -97,19 +97,28 @@ END_OF_TEXT
       cookies = "pass_hash=0; member_id=0; session_id=#{@session_id}"
       headers = {'Cookie'=>"#{cookies}", 'Content-Type'=>'application/x-www-form-urlencoded'}
       Net::HTTP.start(RAPID_BOARDS) do |http|
-         response = http.post('/index.php?act=Login&CODE=01&CookieDate=1',
-                              "UserName=#{@properties['username']}&PassWord=#{decrypt(@properties['userpassword'])}",
+         response = http.post('/index.php?act=Login&CODE=01',
+                              "CookieDate=0s&UserName=#{@properties['username']}&PassWord=#{decrypt(@properties['userpassword'])}&Privacy=1",
                               headers)
-         cookies = parse_cookies response['set-cookie']
-      
-         @member_id =  cookies['member_id'].to_s
-         @session_id = cookies['session_id']
-         @pass_hash =  cookies['pass_hash']
+         case response
+         when Net::HTTPSuccess
+            cookies = parse_cookies response['set-cookie']
          
-         @log.error "Login failed!" if (@member_id.nil? || @member_id == '0')
+            @session_id = cookies['session_id']
+            @log.error "Login failed using #{@properties['username']}!" unless response.body =~ /you are now logged in as/
+         else         
+            @log.error "Login error using #{@properties['username']}!"
+         end
       end
       
    end
+   def logout
+      cookies = "session_id=#{@session_id}"
+      headers = {'Cookie'=>"#{cookies}", 'Content-Type'=>'application/x-www-form-urlencoded'}
+      Net::HTTP.start(RAPID_BOARDS) do |http|
+         response = http.get('/index.php?act=Login&CODE=03')
+      end
+  end
    # Log in to the admin console and save the adsess login token.
    def admin_login
       headers = {'Content-Type'=>'application/x-www-form-urlencoded'}
@@ -129,11 +138,11 @@ END_OF_TEXT
    # as spammers are edited (to require moderating), an email warning gets sent out and the incident is reported back to SFS.
    def get_new_members
       index
-      login if @member_id.nil?
-      exit if @member_id.nil? || @member_id == '0'
+      login
+
       @known_users_changed = false
       
-      cookies = "pass_hash=#{@pass_hash}; member_id=#{@member_id}; session_id=#{@session_id}"
+      cookies = "session_id=#{@session_id}"
       headers = {'Cookie'=>"#{cookies}", 'Content-Type'=>'application/x-www-form-urlencoded'}
       Net::HTTP.start(RAPID_BOARDS) do |http|
          response = http.post('/index.php?',
@@ -146,9 +155,9 @@ END_OF_TEXT
          uid = @known_users[-1].uid
          
          @users.each do |user|
-            puts "looking at user #{user.name}(#{user.uid}) compared to last known user #{@known_users[-1].name}(#{uid})"
+#            @log.info "looking at user #{user.name}(#{user.uid}) compared to last known user #{@known_users[-1].name}(#{uid})"
             break if (uid.to_i < user.uid.to_i)
-            break if (uid.to_i == user.uid.to_i) && (user.name == @know_users[uid.to_i].name) # same id && same name
+            break if (uid.to_i == user.uid.to_i) && (user.name == @known_users[uid.to_i].name) # same id && same name
             @log.info "User #{@known_users[uid.to_i].name} has been deleted, removing from user list"
             @known_users.delete_at( uid.to_i )
             while (@known_users[uid.to_i].nil?)
@@ -193,6 +202,7 @@ END_OF_BODY
             end
          end
       end
+      logout
       File.open( USERS_FILE, 'w' ) {|f| YAML.dump(@known_users, f) } if @known_users_changed
    end
 

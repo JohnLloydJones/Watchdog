@@ -150,9 +150,14 @@ END_OF_TEXT
             break if (uid.to_i < user.uid.to_i)
             break if (uid.to_i == user.uid.to_i) && (user.name == @know_users[uid.to_i].name) # same id && same name
             @log.info "User #{@known_users[uid.to_i].name} has been deleted, removing from user list"
-            @known_users.delete_at( -1 )
-            uid = @known_users[-1].uid
+            @known_users.delete_at( uid.to_i )
+            while (@known_users[uid.to_i].nil?)
+               uid = (uid.to_i - 1).to_s
+            end
+#            @log.info "last user id is now #{uid}"
+#            uid = @known_users[-1].uid
             @known_users_changed = true
+            break if uid == user.uid
          end
          
          @users.reverse_each do |user|
